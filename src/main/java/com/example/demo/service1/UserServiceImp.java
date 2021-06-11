@@ -13,7 +13,6 @@ public class UserServiceImp implements UserService{
         users.add(new User(1,"tra","242021"));
         users.add(new User(2,"tra1","242021433"));
     }
-
     @Override
     public List<User> getListUser() {
         return users;
